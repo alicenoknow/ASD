@@ -16,7 +16,6 @@ def partition3(a, l, r):
 def quicksort3arr(arr, l ,r):
     if l >= r: return
     i,j = partition3(arr, l, r)
-
     quicksort3arr(arr, l, i-1)
     quicksort3arr(arr, j+1, r)
 
