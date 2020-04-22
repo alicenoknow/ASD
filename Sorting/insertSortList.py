@@ -7,7 +7,7 @@ class Node:
 def insertionSort(head_ref):
     sorted = None                                   # Initialize sorted linked list
     current = head_ref                              # Traverse the given linked list and insert every
-    while (current != None):                        # node to sorted
+    while current is not None:                        # node to sorted
         next = current.next                         # Store next for next iteration
         sorted = sortedInsert(sorted, current)      # insert current in sorted linked list
         current = next                              # Update current

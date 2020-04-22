@@ -20,3 +20,4 @@ def select(arr, l, r, i):
 
 arr = [2,5,4,8,6,9,1,3,7]
 print(select(arr,0,8,4))
+print(arr)
