@@ -11,11 +11,11 @@ def partition(arr, l, r):
         else: return j
 
 def select(arr, l, r, i):
-    if l==r: return arr[l]
+    if l == r: return arr[l]
     p = partition(arr,l,r)
-    if p==i: return arr[p]
-    elif p<i : return select(arr,p+1,r,i)
-    return select(arr,l,p-1,i)
+    if p == i: return arr[p]
+    elif p < i : return select(arr, p+1, r, i)
+    return select(arr, l, p-1, i)
 
 
 arr = [2,5,4,8,6,9,1,3,7]
