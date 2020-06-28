@@ -15,7 +15,7 @@ def knapsack(W, P, maxW):      # W[i] - weight of i-th item, P[i] - profit of i-
     result = F[n-1][maxW]
     w = maxW
     for i in range(n-1, -1, -1):
-        if(result != F[i][w]):
+        if result != F[i][w]:
             print(W[i])
             result -= P[i]
             w -= w[i]

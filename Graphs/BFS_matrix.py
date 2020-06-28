@@ -1,3 +1,4 @@
+# O(V + E)
 def BFS( G, s ):
     v = len(G)          # liczb wierzcholkow
     Q = []              # kolejka

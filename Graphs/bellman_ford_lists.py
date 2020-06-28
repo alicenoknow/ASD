@@ -19,20 +19,23 @@ def bellman_ford(G, s, P):
         for v in G[u]:
                 if d[v[0]][0] > d[u][0] + v[1]:
                     d[v[0]][0] = d[u][0] + v[1]
-                    P[v[0]].append(u)
+                    if u != s: P[v[0]].append(u)
     for u in range(n):
         for v in G[u]:
             if d[v[0]][0] > d[u][0] + v[1]:
                 print("negative cycle")
                 return
     for i in range(0, len(G)):
-        P[i].append(i)
+        if i != s:
+            P[i].append(i)
         print(d[i][0], P[i])
+
 
 G = [ [[1,20],[3,5],[4,0]],
      [[0,1], [2,5]],
      [[1,4],[3,5],[4,1]],
      [[1,3],[2,5],[4,10]],
      [[0,2],[2,4]]]
-path = [[] for _ in range(len(G))]
-bellman_ford(G, 0, path)
+s = 0
+path = [[s] for _ in range(len(G))]
+bellman_ford(G, s, path)

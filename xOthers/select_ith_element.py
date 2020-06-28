@@ -14,7 +14,7 @@ def select(arr, l, r, i):
     if l == r: return arr[l]
     p = partition(arr,l,r)
     if p == i: return arr[p]
-    elif p < i : return select(arr, p+1, r, i)
+    elif p < i: return select(arr, p+1, r, i)
     return select(arr, l, p-1, i)
 
 

@@ -4,32 +4,34 @@ e.g. given: [2,4], [3,7], [4,5], [1,7]
 answer is: 1, we only need [1,7], because all compartments are contained in [1,7]
 '''
 
+
 class Compartment:
-    def __init__(self, o , c):
+    def __init__(self, o=None , c=None):
         self.open = o
         self.close = c
 
 
-class Interval_Tree:
-    def __init__(self, x):
+class IntervalTree:
+    def __init__(self, x=None):
         self.comp = x
         self.left = None
         self.right = None
 
 
-    def add2tree(self, x):
+
+    def add(self, x):
         if x.open <= self.comp.open and x.close >= self.comp.close:
             self.comp = x
         elif x.open < self.comp.open and x.close <= self.comp.close:
             if self.left is None:
-                self.left = Interval_Tree(x)
+                self.left = IntervalTree(x)
             else:
-                self.left.add2tree(x)
+                self.left.add(x)
         elif x.close > self.comp.close and x.open >= self.comp.open:
             if self.right is None:
-                self.right = Interval_Tree(x)
+                self.right = IntervalTree(x)
             else:
-                self.right.add2tree(x)
+                self.right.add(x)
 
     def print_tree(self):
         if self.left is not None:
@@ -40,7 +42,7 @@ class Interval_Tree:
 
 
 def fmc(arr):                       # find minimum number of compartments to cover whole values
-    tree = Interval_Tree(arr[0])
+    tree = IntervalTree(arr[0])
     for i in range(1, len(arr)):
         tree.add2tree(arr[i])
     tree.print_tree()

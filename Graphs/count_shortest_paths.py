@@ -3,7 +3,7 @@ from sys import maxsize
 
 def count_shortest_paths(G, s, t):
     n = len(G)                          # liczba wierzcholkow
-    visit = [False] * n                 # tablica przechowujaca informacje czy wierzcholek byj juz odwiedzony
+    visit = [False] * n                 # tablica przechowujaca informacje czy wierzcholek byl juz odwiedzony
     d = [maxsize] * n                   # odleglosc od wierzcholka poczatkowego s
     count = [0] * n                     # tablica przechowujaca liczbe tras do i-tego wierzcholka
     d[s] = 0

@@ -13,26 +13,26 @@ złożoność: O(V * E)
 
 def bellman_ford(G, s, P):
     n = len(G)
-    d = [[float("inf"), i] for i in range(n)]
-    d[s][0] = 0
+    d = [float("inf") for _ in range(n)]
+    d[s] = 0
     for u in range(n):
         for v in range(n):
             if G[u][v] is not None:
-                if d[v][0] > d[u][0] + G[u][v]:
-                    d[v][0] = d[u][0] + G[u][v]
+                if d[v] > d[u] + G[u][v]:
+                    d[v] = d[u] + G[u][v]
                     P[v].append(u)
     for u in range(n):
         for v in range(n):
-            if G[u][v] is not None and d[v][0] > d[u][0] + G[u][v]:
+            if G[u][v] is not None and d[v] > d[u] + G[u][v]:
                 print("negative cycle")
                 return
     for i in range(0, len(G)):
         P[i].append(i)
-        print(d[i][0], P[i])
+        print(d[i], P[i])
 
 G = [[None, 32, 72, 4, None],
      [None, None, 4, None, None],
-     [2, -42, None, 52, 532],
+     [2, 3, None, 52, 532],
      [2, 1, 4, None, 1],
      [1, 5, 1, 4, None]]
 path = [[] for _ in range(len(G))]

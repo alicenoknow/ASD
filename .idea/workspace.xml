@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb14f8e3-a51e-453d-b938-b6b81133ffcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/corpo_party.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knapsack_rec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knapsack_rec_print.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/knapsack.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="1" />
@@ -28,36 +38,44 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
+  <component name="JupyterTrust" id="e0b380e4-076d-456f-93c1-d982ffb48297" />
   <component name="ProjectId" id="1TOKmygEZF9AaRqIN836e2BFZLF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AN\PycharmProjects\1" />
+      <recent name="C:\Users\AN\PycharmProjects\1\DP" />
+      <recent name="C:\Users\AN\PycharmProjects\1\Sorting" />
       <recent name="C:\" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AN\PycharmProjects\1\Trees" />
+      <recent name="C:\Users\AN\PycharmProjects\1\Graphs" />
+      <recent name="C:\Users\AN\PycharmProjects\1\Hash" />
+      <recent name="C:\Users\AN\PycharmProjects\1\xOthers" />
+      <recent name="C:\Users\AN\PycharmProjects\1\Sorting" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.knapsack_rec">
+  <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +98,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/BTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,21 +125,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorial.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="heapSort (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cutting_trees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,43 +147,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting/heapSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/cutting_trees.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="heapSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heapSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="knapsack_rec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="knapsack_rec" type="PythonConfigurationType" factoryName="Python">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,6 +183,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="otoczka_Jarvis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\AN\PycharmProjects\1\otoczka_Jarvis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="palindrom" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +215,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/palindrom.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\AN\PycharmProjects\1\xOthers\palindrom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quickSortList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sumSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,14 +232,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quickSortList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting/sumSort.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zad1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/Pulpit/kol3-pakiet" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/Pulpit/kol3-pakiet/zad1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -215,19 +271,20 @@
     <list>
       <item itemvalue="Python.1" />
       <item itemvalue="Python.palindrom" />
-      <item itemvalue="Python.quickSortList" />
-      <item itemvalue="Python.heapSort" />
-      <item itemvalue="Python.heapSort (1)" />
-      <item itemvalue="Python.factorial" />
       <item itemvalue="Python.knapsack_rec" />
+      <item itemvalue="Python.zad1" />
+      <item itemvalue="Python.sumSort" />
+      <item itemvalue="Python.cutting_trees" />
+      <item itemvalue="Python.otoczka_Jarvis" />
+      <item itemvalue="Python.BTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.knapsack_rec" />
-        <item itemvalue="Python.factorial" />
-        <item itemvalue="Python.heapSort (1)" />
-        <item itemvalue="Python.heapSort" />
-        <item itemvalue="Python.quickSortList" />
+        <item itemvalue="Python.BTree" />
+        <item itemvalue="Python.otoczka_Jarvis" />
+        <item itemvalue="Python.cutting_trees" />
+        <item itemvalue="Python.sumSort" />
+        <item itemvalue="Python.zad1" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +326,86 @@
       <workItem from="1585067665425" duration="5165000" />
       <workItem from="1585082110197" duration="135000" />
       <workItem from="1585131210637" duration="12470000" />
+      <workItem from="1585235980824" duration="590000" />
+      <workItem from="1585255492707" duration="600000" />
+      <workItem from="1585339914734" duration="55000" />
+      <workItem from="1585424963334" duration="853000" />
+      <workItem from="1585432676812" duration="515000" />
+      <workItem from="1585647881255" duration="560000" />
+      <workItem from="1585648494660" duration="1993000" />
+      <workItem from="1585667874715" duration="140000" />
+      <workItem from="1585668180752" duration="42000" />
+      <workItem from="1585678339314" duration="798000" />
+      <workItem from="1585734237087" duration="9572000" />
+      <workItem from="1585745673649" duration="747000" />
+      <workItem from="1585814231628" duration="152000" />
+      <workItem from="1586624761960" duration="79000" />
+      <workItem from="1586775133836" duration="5134000" />
+      <workItem from="1586856079460" duration="817000" />
+      <workItem from="1586857926594" duration="1082000" />
+      <workItem from="1586937429450" duration="5149000" />
+      <workItem from="1587135554996" duration="6910000" />
+      <workItem from="1587292159482" duration="4037000" />
+      <workItem from="1587300891074" duration="9880000" />
+      <workItem from="1587462030166" duration="80000" />
+      <workItem from="1587462137767" duration="116000" />
+      <workItem from="1587462328919" duration="10578000" />
+      <workItem from="1587547744476" duration="5556000" />
+      <workItem from="1587560192522" duration="14840000" />
+      <workItem from="1587593048430" duration="2108000" />
+      <workItem from="1587634572195" duration="7799000" />
+      <workItem from="1588001399738" duration="12873000" />
+      <workItem from="1588076310658" duration="14000" />
+      <workItem from="1588082869715" duration="102000" />
+      <workItem from="1588083906632" duration="5304000" />
+      <workItem from="1588150324161" duration="8626000" />
+      <workItem from="1588165255860" duration="5672000" />
+      <workItem from="1588242058175" duration="11084000" />
+      <workItem from="1588420714518" duration="8487000" />
+      <workItem from="1588583221985" duration="27145000" />
+      <workItem from="1588613556576" duration="4099000" />
+      <workItem from="1588693393543" duration="1360000" />
+      <workItem from="1588755756396" duration="4332000" />
+      <workItem from="1588842907988" duration="14739000" />
+      <workItem from="1588928729625" duration="41000" />
+      <workItem from="1588929440194" duration="682000" />
+      <workItem from="1588932437470" duration="605000" />
+      <workItem from="1588933130293" duration="22000" />
+      <workItem from="1588936403410" duration="795000" />
+      <workItem from="1588937268970" duration="363000" />
+      <workItem from="1588937800611" duration="937000" />
+      <workItem from="1588957409672" duration="10827000" />
+      <workItem from="1589015982056" duration="6974000" />
+      <workItem from="1589138886928" duration="748000" />
+      <workItem from="1589192993690" duration="1140000" />
+      <workItem from="1589289767921" duration="178000" />
+      <workItem from="1589299017616" duration="1247000" />
+      <workItem from="1589300898846" duration="2500000" />
+      <workItem from="1589371374562" duration="4465000" />
+      <workItem from="1589525282143" duration="600000" />
+      <workItem from="1589540980314" duration="561000" />
+      <workItem from="1589887736335" duration="9446000" />
+      <workItem from="1590418733567" duration="2307000" />
+      <workItem from="1590513670759" duration="2812000" />
+      <workItem from="1590570437915" duration="8023000" />
+      <workItem from="1590592021164" duration="1110000" />
+      <workItem from="1590612772501" duration="2924000" />
+      <workItem from="1590680815530" duration="7970000" />
+      <workItem from="1590754242929" duration="2404000" />
+      <workItem from="1590786961831" duration="1308000" />
+      <workItem from="1591091776913" duration="11703000" />
+      <workItem from="1591105750264" duration="10840000" />
+      <workItem from="1591123599199" duration="8867000" />
+      <workItem from="1591189299478" duration="6635000" />
+      <workItem from="1591351706880" duration="712000" />
+      <workItem from="1591381683209" duration="34000" />
+      <workItem from="1591697708255" duration="3134000" />
+      <workItem from="1591719758334" duration="101000" />
+      <workItem from="1591789102832" duration="5779000" />
+      <workItem from="1592397518933" duration="2617000" />
+      <workItem from="1592494924555" duration="2328000" />
+      <workItem from="1592509879534" duration="5110000" />
+      <workItem from="1593177581062" duration="18069000" />
     </task>
     <servers />
   </component>
@@ -288,21 +425,86 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="54" key="#quickSort" timestamp="1585734264755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="54" key="#quickSort/0.0.1366.728@0.0.1366.728" timestamp="1585734264755" />
+    <state x="402" y="50" key="#scratch" timestamp="1588083993426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="50" key="#scratch/0.0.1366.728@0.0.1366.728" timestamp="1588083993426" />
+    <state x="522" y="150" key="FileChooserDialogImpl" timestamp="1591189317597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="522" y="150" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591189317597" />
+    <state width="1323" height="219" key="GridCell.Tab.0.bottom" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state width="1323" height="219" key="GridCell.Tab.0.center" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state width="1323" height="219" key="GridCell.Tab.0.left" timestamp="1593332963868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593332963868" />
+    <state width="1323" height="219" key="GridCell.Tab.0.right" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state width="1323" height="219" key="GridCell.Tab.1.center" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state width="1323" height="219" key="GridCell.Tab.1.left" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state width="1323" height="219" key="GridCell.Tab.1.right" timestamp="1593332963869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593332963869" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1588958813434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588958813434" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591128108738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591128108738" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/1$heapSort.coverage" NAME="heapSort Coverage Results" MODIFIED="1584976690558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1$bucketSort.coverage" NAME="bucketSort Coverage Results" MODIFIED="1584442705484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$countingSort.coverage" NAME="countingSort Coverage Results" MODIFIED="1584525926367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1$quickSortList.coverage" NAME="quickSortList Coverage Results" MODIFIED="1584543255360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$1.coverage" NAME="1 Coverage Results" MODIFIED="1585139133006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$insertSortList.coverage" NAME="insertSortList Coverage Results" MODIFIED="1583933793164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$quicksort3.coverage" NAME="quicksort3 Coverage Results" MODIFIED="1584536035951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$radix_sort.coverage" NAME="radix_sort Coverage Results" MODIFIED="1584527722275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$mergeSortList.coverage" NAME="mergeSortList Coverage Results" MODIFIED="1583940272470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1584989633237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$knapsack_rec.coverage" NAME="knapsack_rec Coverage Results" MODIFIED="1585140081341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$djikstra_list.coverage" NAME="djikstra_list Coverage Results" MODIFIED="1588154468368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
+    <SUITE FILE_PATH="coverage/1$LIS.coverage" NAME="LIS Coverage Results" MODIFIED="1588246713088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/1$mergeSort.coverage" NAME="mergeSort Coverage Results" MODIFIED="1583935674480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$min_max_heap.coverage" NAME="min_max_heap Coverage Results" MODIFIED="1583312633782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1$heapSort__1_.coverage" NAME="heapSort (1) Coverage Results" MODIFIED="1584987827219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting" />
+    <SUITE FILE_PATH="coverage/1$zad1.coverage" NAME="zad1 Coverage Results" MODIFIED="1591194954169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Pulpit/kol3-pakiet" />
+    <SUITE FILE_PATH="coverage/1$heapSort.coverage" NAME="heapSort Coverage Results" MODIFIED="1584976690558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$insertSortList.coverage" NAME="insertSortList Coverage Results" MODIFIED="1583933793164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1$palindrom.coverage" NAME="palindrom Coverage Results" MODIFIED="1579819539980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$min_max_heaps_struct.coverage" NAME="min_max_heaps_struct Coverage Results" MODIFIED="1587594761245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$quicksort3.coverage" NAME="quicksort3 Coverage Results" MODIFIED="1584536035951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1584989633237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$radix_sort.coverage" NAME="radix_sort Coverage Results" MODIFIED="1584527722275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$1.coverage" NAME="1 Coverage Results" MODIFIED="1593331237917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$floyd_warshall_matrix.coverage" NAME="floyd_warshall_matrix Coverage Results" MODIFIED="1588167471877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
+    <SUITE FILE_PATH="coverage/1$mergeSortList.coverage" NAME="mergeSortList Coverage Results" MODIFIED="1583940272470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$coin_changer.coverage" NAME="coin_changer Coverage Results" MODIFIED="1588883739181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$knapsack_rec.coverage" NAME="knapsack_rec Coverage Results" MODIFIED="1585425208610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$min_max_heap.coverage" NAME="min_max_heap Coverage Results" MODIFIED="1583312633782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1$heapSort__1_.coverage" NAME="heapSort (1) Coverage Results" MODIFIED="1585743441088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting" />
+    <SUITE FILE_PATH="coverage/1$countingSort.coverage" NAME="countingSort Coverage Results" MODIFIED="1584525926367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

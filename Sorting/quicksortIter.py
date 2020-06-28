@@ -20,7 +20,7 @@ class Stack:
 
     def pop(self):
         if self.is_empty():
-            raise Exception("stack is empty")
+            return None
         data = self.head.data
         self.head = self.head.next
         return data
