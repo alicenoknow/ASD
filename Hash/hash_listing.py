@@ -1,4 +1,4 @@
-class Hashtable():
+class Hashtable:
     def __init__(self, N):
         self.table = [[] for _ in range(N)]
         self.size = N

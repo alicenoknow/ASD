@@ -127,6 +127,21 @@ class BST:
             print(curr.value)
             self.printTree(curr.right)
 
+    def average(self):
+        S, C = _average(self.root)
+        return S / C
+
+
+def _average(node):
+    if not node.left and not node.right:
+        return node.value, 1
+    Ls = Rs = Lcnt = Rcnt = 0
+    if node.left:
+        Ls, Lcnt = _average(node.left)
+    if node.right:
+        Rs, Rcnt = _average(node.right)
+    return (Ls + Rs + node.value), (Lcnt + Rcnt + 1)
+
 
 def serialize(root, serial):
     if root is not None:
@@ -173,3 +188,14 @@ ND.root = deserialize(res, None)
 ND.printTree(ND.root)
 b = ND.pred(12)
 print("pred: ", b.value)
+
+
+#+++++++++++++++++++++++++++++++++++++++++++
+
+def mid(A, s ,t):
+    if s == t:
+        return
+    m = (s + t)//2
+    print(A[m])
+    mid(A, s, m)
+    mid(A, m+1, t)
